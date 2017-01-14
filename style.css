@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
