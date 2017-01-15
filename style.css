@@ -1,15 +1,145 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Quicksand:400,700');
 
 * {
   margin: 0;
   padding: 0;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
 }
 
 p {
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  line-height: 1.6em;
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 100;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  width: 100%;
+}
+
+#everything {
+  width: 100%;
+  height: auto;
+}
+
+#header-outer {
+  width: 100vw;
+  height: 4.5em;
+  margin-top: -4.5em;
+  background-color: #fff;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header-outer * {
+  color: #1794c9;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+
+#header-outer a {
+  transition: color 0.25s;
+}
+
+#header-outer a:hover {
+  color: #1379A4;
+}
+
+#logo {
+  float: left;
+  width: auto;
+  font-size: 2.5em;
+  margin-left: 10px;
+}
+
+#links-outer {
+  display: inline-block;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+#links-outer > a {
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+.container {
+  width: 95vw;
+  height: 24em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 2.5vw 1em 2.5vw;
+}
+
+.main-container {
+  height: 32em;
+  display: flex;
+  align-items: center;
+  background-color: #1794c9;
+  margin-top: 4.5em;
+}
+
+.main-container > div.center {
+  height: auto;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3em;
+}
+
+.main-container > div.center > * {
+  text-align: center;
+}
+
+#title {
+  font-size: 5em;
+}
+
+.right-img, .left-img {
+  width: 40vw;
+  height: auto;
+  align-self: flex-end;
+  margin-bottom: -1em;
+}
+
+.earth {
+  align-self: center;
+}
+
+.container-2 {
+  background-color: #0F5E80;
+}
+.container-3 {
+  background-color: #0D516E;
+}
+.container-4 {
+  background-color: #0B435B;
+}
+
+.footer {
+  background-color: #041B25;
+  width: 95vw;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 2.5vw 1em 2.5vw;
+}
+
+.footer > p {
+  opacity: 0.5;
 }
