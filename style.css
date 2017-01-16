@@ -136,10 +136,42 @@ h1 {
   height: 4em;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 1em 2.5vw 1em 2.5vw;
 }
 
-.footer > p {
+.footer > div > p, .footer > div > a {
+  opacity: 0.6;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 900;
+  display: block;
+  margin: 0;
+}
+
+.footer > div > a {
   opacity: 0.5;
+  transition: opacity 0.25s;
+}
+
+.footer > div > a:hover {
+  opacity: 0.7;
+}
+
+#footer-right > * {
+  text-align: center;
+}
+
+#footer-link {
+  opacity: 0.5;
+  height: 75%;
+  transition: opacity 0.25s;
+}
+
+#footer-link:hover {
+  opacity: 0.7;
+}
+
+#footer-logo {
+  height: 100%;
+  width: auto;
 }
