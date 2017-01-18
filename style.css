@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Quicksand:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 
 * {
   margin: 0;
@@ -17,10 +18,11 @@ p {
 }
 
 h1 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 3em;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 #everything {
@@ -43,7 +45,7 @@ h1 {
 
 #header-outer * {
   color: #1794c9;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -86,19 +88,36 @@ h1 {
 }
 
 .main-container {
-  height: 32em;
+  height: 36em;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   background-color: #1794c9;
   margin-top: 4.5em;
 }
 
 .main-container > div.center {
   height: auto;
-  width: 60%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -3em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -6em;
+}
+
+.main-container > div.center > p {
+  text-align: left;
+  margin: 2.5em;
+  width: 40%;
+}
+
+#video {
+  margin: 2.5em;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .main-container > div.center > * {
@@ -107,6 +126,8 @@ h1 {
 
 #title {
   font-size: 5em;
+  text-align: center;
+  margin: 0 !important;
 }
 
 .right-img, .left-img {
@@ -142,7 +163,7 @@ h1 {
 
 .footer > div > p, .footer > div > a {
   opacity: 0.6;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   display: block;
   margin: 0;
