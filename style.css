@@ -88,7 +88,7 @@ h1 {
 }
 
 .main-container {
-  height: 36em;
+  height: 32em;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -107,13 +107,13 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-direction: row-reverse;
-  margin-top: -2em;
+  margin-top: 0em;
 }
 
-.main-container > div.center > p {
-  text-align: left;
+#video-right {
+  text-align: center;
   margin: 2.5em;
-  width: 40%;
+  width: 75%;
 }
 
 #video {
@@ -128,7 +128,7 @@ h1 {
 #title {
   font-size: 5em;
   text-align: center;
-  margin: 0 !important;
+  margin-bottom: 0.25em !important;
 }
 
 #subtitle {
@@ -204,17 +204,7 @@ h1 {
 }
 
 @media screen and (max-width: 1080px) {
-  #video-right {
-    text-align: center;
-    width: 90%;
-    margin-top: 5em;
-  }
-
-  .main-container > div.center {
-    flex-wrap: wrap !important;
-  }
-
   .main-container {
-    height: 50em;
+    height: 38em;
   }
 }
